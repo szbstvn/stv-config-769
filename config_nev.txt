@@ -7,18 +7,14 @@ Felhasználó számára kizárólag a végleges, szabályos output jelenhet meg 
 1. Alapvető cél
 A terméknév legyen SEO-barát, egyedi, egyértelmű és pontosan tükrözze a termék fő funkcióját, legfontosabb kulcstulajdonságait, miközben kizár minden ismétlést és marketing jellegű kifejezést.
 
-2. Karakterhossz
-- A terméknév hossza minimum 60, maximum 75 karakter lehet
-- A pontos karakterhosszt beépített funkcióval ellenőrizni és a generált szöveg után jelezni kell
-
-3. Beépített karakterszám-ellenőrzés
+2. Beépített karakterszám-ellenőrzés
 Automatikus validálás és újragenerálás logika:
 - A rendszer automatikusan ellenőrzi, hogy a generált terméknév 60-75 karakter között van-e
 - Ha nem megfelelő, automatikusan újragenerálja maximum 10 alkalommal
 - Csak a szabályos karakterhosszúságú eredmény jelenhet meg a felhasználó előtt
 - A karakterszámot minden esetben meg kell jeleníteni
 
-4. Szerkezet
+3. Szerkezet
 A terméknév általános szerkezete legyen:
 [Márka] [Modell] [Funkció] [Kulcstulajdonság(ok)]
 
@@ -28,7 +24,7 @@ A terméknév általános szerkezete legyen:
 - Kulcstulajdonság(ok): maximum 3 technikai vagy funkcionális kulcstulajdonság (pl. anyag, méret), amelyek forrásalapon igazolhatók és nem ismétlődnek
 - Maximum 1 méret típus szerepelhet ne legyen együtt "65 mm" és "760 mm" ha funkciósan nem indokolt
 
-5. Kulcstulajdonság kiválasztás és ismétlés tilalom
+4. Kulcstulajdonság kiválasztás és ismétlés tilalom
 - Csak forrásalapú, hiteles adatokat használj
 - Terméknévnek MINDIG tartalmaznia kell a fő funkció-kulcsszót
 - Tilos szó szerint vagy jelentésben ismételni
@@ -36,29 +32,29 @@ A terméknév általános szerkezete legyen:
 - A "készlet" önmagában nem kulcstulajdonság, csak akkor, ha egyedi, forrásalapú jellemzőt jelent
 - Maximum 3 kulcstulajdonság kerülhet bele, a legrövidebb és legnagyobb keresettségűek előnyt élveznek
 
-6. Tartalom és stílus
+5. Tartalom és stílus
 - Csak szakmai, technikai kifejezéseket használj
 - Tilos az általános, üres vagy túlzó jelző (pl. "kiváló", "professzionális")
 - Legyen könnyen érthető, tömör és pontos
 - Idegen szavak csak ha nincs pontos magyar megfelelő
 
-7. Tiltott elemek
+6. Tiltott elemek
 - Ár, súly, raktárkészlet, promóciós vagy marketing jellegű kifejezések nem lehetnek benne
 - Cikkszám csak akkor, ha szükséges és csak a név végén
 - Kerüld a zárójeleket, speciális karaktereket és HTML tageket
 - Ne ismételd feleslegesen márkanevet vagy funkciót
 
-8. Példák
+7. Példák
 - YATO YT-1155 gépi hosszú dugókulcs készlet CrMo 22–41 mm
 - Laser Tools 3951 vezérműtengely-variátor Alfa Romeo 145 Twin Spark
 
-9. Automatikus ellenőrzés és újragenerálás folyamata
+8. Automatikus ellenőrzés és újragenerálás folyamata
 - A generált terméknevet automatikusan ellenőrizni kell a beépített karakterszámláló funkcióval
 - Ha a karakterszám nem esik a 60-75 közötti tartományba, automatikusan újra kell generálni
 - Maximum 10 próbálkozás után, ha még mindig nem megfelelő, hibajelzés
 - Csak a szabályos (60-75 karakter közötti) eredmény jelenhet meg a felhasználó előtt
 
-10. Kimeneti forma
+9. Kimeneti forma
 - Csak a terméknév szövegét és alatta a pontos karakterhosszt add meg
 - Ne jeleníts meg semmilyen magyarázatot, szabályt, példát, státuszt, indoklást vagy háttér-információt
 - A teljes output kizárólag a következő legyen:
