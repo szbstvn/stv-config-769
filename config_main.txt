@@ -62,12 +62,7 @@ Adatvalidálás:
 - Ellenőrizd: minden adat felhasználásra került-e
 
 3. Tiltások
-
-TILTOTT KIFEJEZÉSEK:
-- "kiváló minőség", "praktikus megoldás", "kiemelkedő teljesítmény"
-- "ideális", "tökéletes", "felhasználóbarát", "biztonságos használat"
-- "kényelmes munkavégzés", "nagyszerű választás"
-- Bármely szinonima TILOS!
+Szabályok: `config_tilt.txt`
 
 4. Generálási lépések sorrendje
 
