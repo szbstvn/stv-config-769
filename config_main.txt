@@ -70,7 +70,7 @@ Adatvalidálás:
 
 3.1 Általánosítás- és felszínesség-tilalom
 - A termékleírás minden szakaszában tilos bármilyen általános, semmitmondó, sablonos vagy felszínes mondat használata (pl. "kiváló minőség", "sokoldalú felhasználhatóság", "praktikus megoldás", "kiemelkedő teljesítmény", "kompakt kivitel", "kompakt méret" stb.).
-- Továbbiak: `config_tilt.txt`
+- Továbbiak: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_tilt.txt`
 
 3.2 Forrásalapúság
 - Minden állításnak forrásalapúnak, pontosnak, műszaki szempontból ellenőrzöttnek kell lennie. 
@@ -85,25 +85,25 @@ Adatvalidálás:
 4. Generálási lépések sorrendje
 
 4.1 DEKLARÁCIÓ blokk készítése 
-Szabályok: `config_base.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_base.txt`
 
 4.2 TERMÉKNÉV generálása (60-75 karakter)
-Szabályok: `config_nev.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_nev.txt`
 
 4.3 META TITLE generálása (55-65 karakter)  
-Szabályok: `config_tit.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_tit.txt`
 
 4.4 META DESCRIPTION generálása (155-160 karakter)
-Szabályok: `config_des.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_des.txt`
 
 4.5 KIEMELT ÖSSZEFOGLALÓ generálása
-Szabályok: `config_kof.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_kof.txt`
 
 4.6 TERMÉKLEÍRÁS HTML szakaszok generálása
-Szabályok: `config_lei.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_lei.txt`
 
 4.7 KAPCSOLÓDÓ VIDEÓ és PDF ADATLAP megadása 
-Szabályok: `config_vid.txt`, `config_das.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_vid.txt`, `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_das.txt`
 
 4.8 LETÖLTHETŐ EXPORT készítése
 Szabályok: `config_lex.txt`
