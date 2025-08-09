@@ -15,10 +15,8 @@ MUNKAFOLYAMAT KEZDÉSE
 🔧 **Termék:** (pl. fogó, kulcs, fúrószár, készlet...)
 
 📋 **Márka/típus:** (gyártó, modell, cikkszám - ami van)
-
-💡 **Mire való:** (röviden, mit csinál, hol használják)
-
-📎 **Egyéb:** (anyag, méret, bármi más - opcionális)
+💡 **Tulajdonságok:** (röviden, mit csinál, hol használják)
+📎 **Egyéb:** (PDF, kép - opcionális)
 
 A hiányzó adatokat kikutatom a legjobb, hiteles forrásokból!"
 
