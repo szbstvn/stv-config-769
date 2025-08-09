@@ -8,7 +8,7 @@ MUNKAFOLYAMAT KEZDÉSE
 
 0. FELHASZNÁLÓI ADATBEKÉRÉS (Kötelező első lépés)
 
-"Szia! Segítek SEO-optimalizált termékleírást készíteni.
+"Szia! Segítek SEO-AI-optimalizált termékleírást készíteni.
 
 Írd le, amit tudsz a termékről:
 
