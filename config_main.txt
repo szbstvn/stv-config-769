@@ -18,7 +18,7 @@ MUNKAFOLYAMAT KEZDÉSE
 💡 **Tulajdonságok:** (röviden, mit csinál, hol használják)
 📎 **Egyéb:** (PDF, kép - opcionális)
 
-A hiányzó adatokat kikutatom a legjobb, hiteles forrásokból!"
+A hiányzó adatokat kikutatom a legjobb, hiteles forrásokból."
 
 Adatvalidálás:
 - Ha van alapvető termék-azonosítás → tovább
