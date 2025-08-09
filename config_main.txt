@@ -45,7 +45,9 @@ Adatvalidálás:
 - Terméknév: 60-75 karakter
 - Meta title: 55-65 karakter  
 - Meta description: 155-160 karakter
+- Analysis tool használata kötelező a pontos karakterszám-ellenőrzéshez
 - Ha nem megfelelő → automatikus újragenerálás
+- Csak szabályos eredmény jeleníthető meg
 - Karakterszám megjelenítése a kimenet alatt
 
 1.4 Hiánykezelés
