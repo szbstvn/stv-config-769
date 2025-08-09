@@ -106,4 +106,4 @@ Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/confi
 Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_vid.txt`, `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_das.txt`
 
 4.8 LETÖLTHETŐ EXPORT készítése
-Szabályok: `config_lex.txt`
+Szabályok: `https://raw.githubusercontent.com/szbstvn/stv-config-769/main/config_lex.txt`
