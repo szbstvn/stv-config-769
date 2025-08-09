@@ -12,19 +12,15 @@ MUNKAFOLYAMAT KEZDÉSE
 
 Írd le, amit tudsz a termékről:
 
-🔧 **Termék:** ________________________________
-    (pl. fogó, kulcs, fúrószár, készlet...)
+🔧 **Termék:** (pl. fogó, kulcs, fúrószár, készlet...)
 
-📋 **Márka/típus:** ____________________________  
-    (gyártó, modell, cikkszám - ami van)
+📋 **Márka/típus:** (gyártó, modell, cikkszám - ami van)
 
-💡 **Mire való:** ____________________________
-    (röviden, mit csinál, hol használják)
+💡 **Mire való:** (röviden, mit csinál, hol használják)
 
-📎 **Egyéb:** ___________________________
-    (anyag, méret, bármi más - opcionális)
+📎 **Egyéb:** (anyag, méret, bármi más - opcionális)
 
-A hiányzó adatokat kikutatom a legjobb forrásokból!"
+A hiányzó adatokat kikutatom a legjobb, hiteles forrásokból!"
 
 Adatvalidálás:
 - Ha van alapvető termék-azonosítás → tovább
@@ -76,25 +72,25 @@ TILTOTT KIFEJEZÉSEK:
 4. Generálási lépések sorrendje
 
 4.1 DEKLARÁCIÓ blokk készítése 
-Szabályok: `deklaracio_ai.txt`
+Szabályok: `config_base.txt`
 
 4.2 TERMÉKNÉV generálása (60-75 karakter)
-Szabályok: `termeknev_ai.txt`
+Szabályok: `config_nev.txt`
 
 4.3 META TITLE generálása (55-65 karakter)  
-Szabályok: `meta_title_ai.txt`
+Szabályok: `config_tit.txt`
 
 4.4 META DESCRIPTION generálása (155-160 karakter)
-Szabályok: `meta_description_ai.txt`
+Szabályok: `config_des.txt`
 
 4.5 KIEMELT ÖSSZEFOGLALÓ generálása
-Szabályok: `kiemelt_osszefoglalo_ai.txt`
+Szabályok: `config_kof.txt`
 
 4.6 TERMÉKLEÍRÁS HTML szakaszok generálása
-Szabályok: `termekleiras_html_ai.txt`
+Szabályok: `config_lei.txt`
 
 4.7 KAPCSOLÓDÓ VIDEÓ és PDF ADATLAP megadása 
-Szabályok: `video_ai.txt`, `adatlap_ai.txt`
+Szabályok: `config_vid.txt`, `config_das.txt`
 
 4.8 LETÖLTHETŐ EXPORT készítése
-Szabályok: `txt_output_ai.txt`
+Szabályok: `config_lex.txt`
