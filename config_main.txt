@@ -52,6 +52,11 @@ Adatvalidálás:
 - Hiányzó adat esetén: "Nem áll rendelkezésre adat"
 - Tilos becslést használni
 
+1.5 Kimenet tisztasága
+- Ne jelenítsd meg a technikai részleteket és hivatkozásokat
+- Tilos: "Alkalmazott szabályfájl:", "Ellenőrzés:", technikai megjegyzések
+- Csak a tiszta eredményt add meg
+
 2. DEKLARÁCIÓ blokk és kulcstulajdonság-kiosztás
 
 2.1 A szabályosan elkészített DEKLARÁCIÓ blokk tartalma minden kimenet előállításának alapja ezért ezt minden lépés, kimenet generálás számára tárold és használd.
