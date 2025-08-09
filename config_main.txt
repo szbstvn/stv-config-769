@@ -54,15 +54,28 @@ Adatvalidálás:
 
 2. DEKLARÁCIÓ blokk és kulcstulajdonság-kiosztás
 
-2.1 A DEKLARÁCIÓ minden kimenet alapja
-- Tárold és használd minden lépésnél
+2.1 A szabályosan elkészített DEKLARÁCIÓ blokk tartalma minden kimenet előállításának alapja ezért ezt minden lépés, kimenet generálás számára tárold és használd.
 
-2.2 Fókusz-elosztás
-- Minden kulcstulajdonság csak egyetlen szakaszban jelenjen meg
-- Ellenőrizd: minden adat felhasználásra került-e
+2.2 Kulcstulajdonság-kiosztás és deklaráció-követés kötelező:
+- A DEKLARÁCIÓ blokkban felsorolt minden kulcstulajdonságot, fogalmat, paramétert, élő videó- vagy PDF-linket tételesen, előre szét kell osztani a generált termékleírás szakaszai között (összefoglaló, előnyök, jellemzők, készlet tartalma, műszaki adatok, ajánlott felhasználás, használat/tippek, GYIK, CTA, általános információ, kapcsolódó videó, PDF adatlap). 
+- Minden generálás előtt, és minden kimeneti lépés után kötelező ellenőrizni, hogy a deklarációban szereplő minden adat legalább egy szakaszban megjelent-e. 
+- Amennyiben bármely kulcstulajdonság, fogalom vagy forrás nem kerül felhasználásra, azt külön, indoklással kell jelezni, és a generálást csak akkor lehet véglegesíteni, ha minden adat feldolgozásra került, vagy szakmailag indokolt a kihagyás. 
 
-3. Tiltások
-Szabályok: `config_tilt.txt`
+3. Tiltások és nyelvi szabályok
+
+3.1 Általánosítás- és felszínesség-tilalom
+- A termékleírás minden szakaszában tilos bármilyen általános, semmitmondó, sablonos vagy felszínes mondat használata (pl. "kiváló minőség", "sokoldalú felhasználhatóság", "praktikus megoldás", "kiemelkedő teljesítmény", "kompakt kivitel", "kompakt méret" stb.).
+- Továbbiak: `config_tilt.txt`
+
+3.2 Forrásalapúság
+- Minden állításnak forrásalapúnak, pontosnak, műszaki szempontból ellenőrzöttnek kell lennie. 
+- A szakmai forrásokat (lexikon, Wikipedia) kizárólag fogalommagyarázat és háttér-kontextus céljára lehet használni, konkrét termékinformációkat kizárólag gyártói, kereskedelmi vagy hiteles műszaki forrásból szabad átvenni. 
+- Ha bármely szakasz nem tölthető ki forrásalapú tartalommal, "Nem áll rendelkezésre adat" szöveget kell használni. 
+
+3.3 Karakterkorlátos mezők speciális szabálya:
+- Minden mezőt a kapcsolódó szabálydokumentum szerint ellenőrizz, validálj és jeleníts meg.
+- Ha nem felel meg az előírt karakterszámnak, akkor automatikusan ismételd a folyamatot, amíg megfelelő, szabályos szöveg nem lesz.
+- A felhasználó csak ezt láthatja.
 
 4. Generálási lépések sorrendje
 
