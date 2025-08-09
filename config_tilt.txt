@@ -8,5 +8,11 @@
 - "nagyszerű választás"
 - "felhasználóbarát"
 - "kényelmes munkavégzés"
+- "biztonságos használat"
+- "kiemelkedő teljesítmény"
 
-## MINDEN SZINONIMA TILOS!
+## SZABÁLY:
+Bármely szinonima TILOS!
+
+## ELLENŐRZÉS:
+Ha nem szerepel ebben a listában → SZABAD használni
